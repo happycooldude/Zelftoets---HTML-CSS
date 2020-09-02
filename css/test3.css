@@ -17,6 +17,13 @@
     height: 110px;
   }
 
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+  }
+
   .item2 {
     grid-column: 1 / 4;
     grid-row: 2;

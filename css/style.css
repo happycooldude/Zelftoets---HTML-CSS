@@ -5,14 +5,25 @@
   background-color: #2195f3;
 }
 
+.grid-container > div {
+  text-align: center;
+}
+
 .header {
   grid-column: 3 / 3;
   grid-row: 1;
   text-align: center;
   height: 150px;
   width: 360px;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 10px;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
 }
 
 .menu {
@@ -20,7 +31,7 @@
   grid-row: 2;
   height: 75px;
   text-align: center;
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 10px;
 }
 
@@ -57,7 +68,7 @@ a.active{
   width: 420px;
   height: 200px;
   text-align: center;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 10px;
 }
 
@@ -67,7 +78,7 @@ a.active{
   width: 420px;
   height: 200px;
   text-align: center;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 10px;
 }
 
@@ -76,7 +87,7 @@ a.active{
   grid-row: 4;
   width: 420px;
   text-align: center;
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 10px;
 }
 
@@ -85,7 +96,7 @@ a.active{
   grid-row: 4;
   width: 420px;
   text-align: center;
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 10px;
 }
 
@@ -106,7 +117,7 @@ a.active{
   width: 300px;
   height: 600px;
   text-align: center;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 5px;
 }
 
@@ -116,7 +127,7 @@ a.active{
   width: 300px;
   height: 200px;
   text-align: center;
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 5px;
 }
 
@@ -126,7 +137,7 @@ a.active{
   width: 300px;
   height: 200px;
   text-align: center;
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 5px;
 }
 
@@ -136,7 +147,7 @@ a.active{
   width: 300px;
   height: 200px;
   text-align: center;
-  background-color: green;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 5px;
 }
 
@@ -146,7 +157,7 @@ a.active{
   width: 300px;
   height: 200px;
   text-align: center;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 5px;
 }
 
@@ -156,7 +167,7 @@ a.active{
   width: 300px;
   height: 200px;
   text-align: center;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 5px;
 }
 
@@ -166,6 +177,6 @@ a.active{
   width: 300px;
   height: 200px;
   text-align: center;
-  background-color: wheat;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 5px;
 }
